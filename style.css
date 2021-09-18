@@ -6,12 +6,31 @@
 .login-area{
     background-color: blueviolet;
     width: 80%;
-    margin: 200px auto;
+    margin: 20px auto;
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    /* height: 50vh; */
+}
 
+
+#login-btn,  .user-pass, .user-name{
+    padding: 20px;
+}
+
+
+div#dash-bord {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    line-height: 50px;
+    width: 70%;
+    margin: auto;
+    display: none;
+    text-align: center;
 }
